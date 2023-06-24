@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumidityData", "HumidityData\HumidityData.csproj", "{4DB56CFB-4854-4490-B931-DD5491CBBCC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E22628D9-4EFC-43D1-81B2-89DD10C6F7B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumidityData.Tests", "Humidity.Tests\HumidityData.Tests.csproj", "{AAF642EE-9D04-4D03-934C-5C104A4D5C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB56CFB-4854-4490-B931-DD5491CBBCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB56CFB-4854-4490-B931-DD5491CBBCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB56CFB-4854-4490-B931-DD5491CBBCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB56CFB-4854-4490-B931-DD5491CBBCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF642EE-9D04-4D03-934C-5C104A4D5C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF642EE-9D04-4D03-934C-5C104A4D5C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF642EE-9D04-4D03-934C-5C104A4D5C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF642EE-9D04-4D03-934C-5C104A4D5C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAF642EE-9D04-4D03-934C-5C104A4D5C76} = {E22628D9-4EFC-43D1-81B2-89DD10C6F7B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F53B82FD-9E49-4765-A88F-5A5F3234671A}
+	EndGlobalSection
+EndGlobal
